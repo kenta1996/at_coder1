@@ -1,8 +1,7 @@
 <?php
-// https://atcoder.jp/contests/abc191/submissions/20393007
-fscanf(STDIN,'%d%d%d%d',$v,$t,$s, $d);
-if ($v * $t > $d || $v * $s < $d) {
-	echo "Yes";
-} else {
-    echo "No";
-}
+// https://atcoder.jp/contests/abc191/submissions/20394054
+fscanf(STDIN,'%d%d',$n,$x);
+$array = explode(" ", trim(fgets(STDIN))); 
+$result = array_diff($array, array($x));
+$ans = implode(" ", $result);
+echo $ans;
