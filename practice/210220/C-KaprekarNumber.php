@@ -22,13 +22,13 @@ $cnt1 = 0;
 
 abc($num, $cnt ,$cnt1);
 function abc($num, $cnt ,$cnt1) {
-        $cnt1 += 1;
-        $array = str_split($num);
-        rsort($array);
-        $big = implode("", $array);
-        sort($array);
-        $sml = implode("", $array);
-        $num = $big - $sml;
+    $cnt1 += 1;
+    $array = str_split($num);
+    rsort($array);
+    $big = implode("", $array);
+    sort($array);
+    $sml = implode("", $array);
+    $num = $big - $sml;
     
     if ($cnt == $cnt1) {
         echo $num;
