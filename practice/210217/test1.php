@@ -10,7 +10,8 @@ function abc($args) {
         var_dump($args);
         return $args;	
     }
-    return abc($args +1); //abc 関数内で abc 関数を呼び出している
+    //abc 関数内で abc 関数を呼び出している
+    return abc($args +1); 
 }
 
 ?>
