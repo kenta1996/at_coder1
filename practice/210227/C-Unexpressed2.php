@@ -17,4 +17,5 @@ while ($i * $i <= $n) {
     }
     ++$i;
 }
+//複数回に分けずに一回で表示までやる
 echo $n - count(array_unique($ok_array));
