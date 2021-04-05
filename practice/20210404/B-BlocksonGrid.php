@@ -20,5 +20,6 @@ for ($x=0; $x<$l; $x++) {
         $diff[] = $box[$x] - $min;
     }
 }
+
 //差分を全部足して表示
 echo array_sum($diff);
