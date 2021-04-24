@@ -36,7 +36,3 @@ function abc($num, $cnt ,$cnt1) {
     }
     return abc($num, $cnt ,$cnt1); 
 }
-
-
-
-
